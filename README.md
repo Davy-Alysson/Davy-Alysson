@@ -22,26 +22,17 @@
 
 <div align="center">
   <img align="center" alt="Python" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
-  <img align="center" alt="JavaScript" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
-  <img align="center" alt="HTML5" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
-  <img align="center" alt="CSS3" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
-  <img align="center" alt="Git" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" />
-  <img align="center" alt="MySQL" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
-  <img align="center" alt="VSCode" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" />
 </div>
-
-> 💡 Dica: apague os ícones das tecnologias que você ainda não usa, ou adicione outras — a lista completa está em [devicon.dev](https://devicon.dev).
 
 <br>
 
 ## 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=eldavyxzz&show_icons=true&theme=radical&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eldavyxzz&layout=compact&theme=radical" />
+  <img src="github-metrics.svg" alt="Métricas do GitHub" />
 </p>
 
-> ⚠️ Troque `eldavyxzz` pelo seu **usuário do GitHub** (pode ser diferente do seu Instagram) nos links das estatísticas acima para funcionar corretamente.
+> ⚠️ Essa imagem é gerada automaticamente pela GitHub Action `lowlighter/metrics` (arquivo `metrics.yml`, tema vermelho e preto estilo Vitória). Troque `eldavyxzz` pelo seu **usuário real do GitHub** dentro do `metrics.yml` — depois que a Action rodar pela primeira vez, o arquivo `github-metrics.svg` vai aparecer no seu repositório e essa imagem passa a carregar sozinha.
 
 <br>
 
