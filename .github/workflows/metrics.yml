@@ -25,14 +25,14 @@ jobs:
           template: classic
 
           # ===== TEMA VERMELHO E PRETO (estilo Esporte Clube Vitória) =====
-          config_theme: dark
-          config_colors: >-
-            0D0D0D,          
-            1A1A1A,
-            E30613,
-            FFFFFF,
-            E30613,
-            FFFFFF
+                    token: ${{ secrets.METRICS_TOKEN }}
+          user: Davy-Alysson
+          template: classic
+          extras_css: |
+            body, .column, .card, div { background-color: #0D0D0D !important; }
+            h2, h2.field, .title, h3, a, .text-blue, .link { color: #E30613 !important; }
+            span, p, li { color: #FFFFFF !important; }
+
           # ordem: fundo, fundo-secundário, título, texto, ícones, bordas
 
           # ===== PLUGINS (baseado na referência que você enviou) =====
