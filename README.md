@@ -32,7 +32,7 @@
   <img src="github-metrics.svg" alt="Métricas do GitHub" />
 </p>
 
-> ⚠️ Essa imagem é gerada automaticamente pela GitHub Action `lowlighter/metrics` (arquivo `metrics.yml`, tema vermelho e preto estilo Vitória). Troque `eldavyxzz` pelo seu **usuário real do GitHub** dentro do `metrics.yml` — depois que a Action rodar pela primeira vez, o arquivo `github-metrics.svg` vai aparecer no seu repositório e essa imagem passa a carregar sozinha.
+
 
 <br>
 
