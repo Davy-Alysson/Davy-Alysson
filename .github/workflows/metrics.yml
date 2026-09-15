@@ -24,11 +24,10 @@ jobs:
           user: Davy-Alysson
           template: classic
 
-               extras_css: |
-      body, .column { background-color: #0D0D0D !important; }
-      h2, h2.field, .title, h3 { color: #E30613 !important; }
-      a, .text-blue, .link { color: #E30613 !important; }
-      div.field, span, p, li { color: #FFFFFF !important; }
+                  extras_css: |
+      body, .column, .card, div { background-color: #0D0D0D !important; }
+      h2, h2.field, .title, h3, a, .text-blue, .link { color: #E30613 !important; }
+      span, p, li { color: #FFFFFF !important; }
 
 
 
