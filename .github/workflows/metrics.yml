@@ -1,0 +1,71 @@
+name: Metrics
+on:
+  # Atualiza automaticamente todo dia às 05h (horário de Brasília = 08h UTC)
+  schedule:
+    - cron: "0 8 * * *"
+  # Permite rodar manualmente pela aba "Actions" do GitHub
+  workflow_dispatch:
+  # Roda também quando você der push no repositório de perfil
+  push:
+    branches:
+      - main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Token de acesso — crie em Settings > Developer settings > Personal access tokens
+          # com permissão de leitura em "repo" e "user", e salve como secret METRICS_TOKEN
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: eldavyxzz          # <- troque pelo seu usuário do GitHub
+          template: classic
+
+          # ===== TEMA VERMELHO E PRETO (estilo Esporte Clube Vitória) =====
+          config_theme: dark
+          config_colors: >-
+            0D0D0D,          
+            1A1A1A,
+            E30613,
+            FFFFFF,
+            E30613,
+            FFFFFF
+          # ordem: fundo, fundo-secundário, título, texto, ícones, bordas
+
+          # ===== PLUGINS (baseado na referência que você enviou) =====
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_secrets: yes
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          plugin_habits: yes
+          plugin_habits_charts_type: bar
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_threshold: 0%
+          plugin_languages_limit: 8
+
+          plugin_lines: yes
+
+          plugin_stars: yes
+          plugin_stars_limit: 0
+
+          plugin_topics: yes
+          plugin_topics_mode: icons
+
+          plugin_repositories: yes
+          plugin_repositories_featured: lowlighter/metrics
