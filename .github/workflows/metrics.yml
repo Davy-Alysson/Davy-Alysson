@@ -27,10 +27,10 @@ jobs:
          # ===== TEMA VERMELHO E PRETO (estilo Esporte Clube Vitória) =====
                    # ===== TEMA VERMELHO E PRETO (estilo Esporte Clube Vitória) =====
           extras_css: |
-            body, .column, .card { background-color: #0D0D0D !important; }
+            body, .column, .card { background-color: #E30613 !important; }
             h2, h2.field, .title { color: #E30613 !important; }
             a { color: #E30613 !important; }
-            div.field, span, p, li { color: #FFFFFF !important; }
+            div.field, span, p, li { color:#E30613 !important; }
 
           # ===== PLUGINS (baseado na referência que você enviou) =====
           plugin_introduction: yes
