@@ -21,16 +21,19 @@ jobs:
           # Token de acesso — crie em Settings > Developer settings > Personal access tokens
           # com permissão de leitura em "repo" e "user", e salve como secret METRICS_TOKEN
           token: ${{ secrets.METRICS_TOKEN }}
-          user: Davy-Alysson
+          user: Davy-Alysson         # <- troque pelo seu usuário do GitHub
           template: classic
 
-                  extras_css: |
-      body, .column, .card, div { background-color: #0D0D0D !important; }
-      h2, h2.field, .title, h3, a, .text-blue, .link { color: #E30613 !important; }
-      span, p, li { color: #FFFFFF !important; }
-
-
-
+          # ===== TEMA VERMELHO E PRETO (estilo Esporte Clube Vitória) =====
+          config_theme: dark
+          config_colors: >-
+            0D0D0D,          
+            1A1A1A,
+            E30613,
+            FFFFFF,
+            E30613,
+            FFFFFF
+          # ordem: fundo, fundo-secundário, título, texto, ícones, bordas
 
           # ===== PLUGINS (baseado na referência que você enviou) =====
           plugin_introduction: yes
