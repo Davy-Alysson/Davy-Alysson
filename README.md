@@ -26,11 +26,7 @@
 
 <br>
 
-## 📊 Estatísticas do GitHub
 
-<p align="center">
-  <img src="github-metrics.svg" alt="Métricas do GitHub" />
-</p>
 
 
 
